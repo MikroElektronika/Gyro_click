@@ -1,0 +1,8 @@
+module Click_Gyro_config
+
+include Click_Gyro_types
+
+const
+    _GYRO_I2C_CFG as uint32_t[1] = (100000)
+    
+end.
